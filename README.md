@@ -8,7 +8,7 @@ It calls `task` and passes the output through `aha` to turn the colored ASCII in
 
 I use this to share my tasks not tracked on a Kanban board with my team. My setup is:
 
- * a cronjob on my dev machine that periodically runs 'task sync' which syncs to
+ * a cronjob on my dev machine that periodically runs `task sync` which syncs to
  * a `taskserver` I host, from which in turn reads
  * another cronjob (this time on the server), `task sync`-ing to the user which then runs this application
 
